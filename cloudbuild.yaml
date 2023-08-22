@@ -5,6 +5,7 @@ steps:
   - functions
   - deploy
   - repo-function-1
+  - --runtime=python37
   - --region=us-central1
   - --source=.
   - --trigger-http
